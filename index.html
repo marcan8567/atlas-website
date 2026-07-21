@@ -155,7 +155,80 @@
     </div>
 </nav>
 
-<!-- PLACEHOLDER: rest of body pushed in follow-up commit -->
+<!-- ==================== HOME ==================== -->
+<div id="home" class="page active max-w-screen-2xl mx-auto">
 
+    <!-- IMPROVED HERO WITH GRAPHIC ON RIGHT -->
+    <section class="relative px-8 pt-16 pb-20 overflow-hidden">
+        <!-- Decorative background blobs -->
+        <div class="grain-blob absolute -top-24 -left-24 w-96 h-96 bg-[#0F3D6B]/10 rounded-full pointer-events-none"></div>
+        <div class="grain-blob absolute top-10 right-0 w-[28rem] h-[28rem] bg-[#FF4F00]/10 rounded-full pointer-events-none"></div>
+
+        <div class="max-w-screen-2xl mx-auto relative">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                
+                <!-- Left: Text Content -->
+                <div>
+                    <h1 class="text-6xl md:text-[68px] leading-[1.05] tracking-tighter font-semibold heading-font">
+                        <span class="text-[#0F3D6B]">Thailand &amp; APAC</span><br>
+                        market entry and<br>
+                        expansion
+                    </h1>
+                    
+                    <p class="mt-6 max-w-lg text-xl text-gray-600">
+                        Research-driven advisory that reduces risk and accelerates ROI for international companies entering or expanding in Asia.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-4 mt-10">
+                        <a href="https://calendly.com/atlas-commercial" target="_blank"
+                           class="orange-btn px-8 py-4 text-lg font-semibold rounded-3xl flex items-center gap-x-3">
+                            Book your free intro call
+                        </a>
+                        <a href="#" onclick="showPage('solution'); return false;"
+                           class="px-8 py-4 text-lg font-semibold border border-gray-300 bg-white/60 hover:bg-white rounded-3xl transition-colors flex items-center gap-x-2">
+                            Explore our approach
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right: Refined Route / Network Graphic -->
+                <div class="hidden md:block">
+                    <div class="relative">
+                        <div class="aspect-[4/3] bg-white rounded-3xl border border-gray-200 flex items-center justify-center overflow-hidden shadow-xl shadow-[#0F3D6B]/5">
+                            <svg viewBox="0 0 400 300" class="w-full h-full">
+                                <defs>
+                                    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+                                        <stop offset="0%" stop-color="#0F3D6B" stop-opacity="0.06"/>
+                                        <stop offset="100%" stop-color="#0F3D6B" stop-opacity="0"/>
+                                    </radialGradient>
+                                </defs>
+                                <rect width="400" height="300" fill="url(#glow)"/>
+                                <!-- subtle dotted world lines -->
+                                <path d="M40 220 Q120 120 200 160 Q280 200 360 90" stroke="#0F3D6B" stroke-width="1.5" stroke-dasharray="4 6" fill="none" opacity="0.35"/>
+                                <path d="M60 90 Q160 60 260 110 Q320 140 355 210" stroke="#FF4F00" stroke-width="1.5" stroke-dasharray="4 6" fill="none" opacity="0.3"/>
+                                <!-- nodes -->
+                                <circle cx="200" cy="160" r="10" fill="#FF4F00"/>
+                                <circle cx="200" cy="160" r="18" fill="none" stroke="#FF4F00" stroke-width="1.5" opacity="0.4"/>
+                                <circle cx="40" cy="220" r="6" fill="#0D9488"/>
+                                <circle cx="360" cy="90" r="6" fill="#0D9488"/>
+                                <circle cx="60" cy="90" r="6" fill="#0D9488"/>
+                                <circle cx="355" cy="210" r="6" fill="#0D9488"/>
+                                <circle cx="260" cy="110" r="5" fill="#0D9488"/>
+                                <text x="200" y="188" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#0F3D6B" font-weight="600">Bangkok HQ</text>
+                            </svg>
+                        </div>
+                        <p class="text-center text-sm text-gray-400 mt-4">A connected network across Southeast Asia and beyond</p>
+                        
+                        <!-- Small decorative elements -->
+                        <div class="absolute -top-3 -right-3 w-8 h-8 bg-[#FF4F00]/10 rounded-full"></div>
+                        <div class="absolute -bottom-3 -left-3 w-6 h-6 bg-[#0D9488]/10 rounded-full"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLACEHOLDER_CONTINUES_NEXT -->
+</div>
 </body>
 </html>
